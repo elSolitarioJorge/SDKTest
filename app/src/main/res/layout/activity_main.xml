@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main">
+
+    <Button
+        android:id="@+id/btn_jank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="制造卡顿 (sleep 300ms)" />
+
+    <Button
+        android:id="@+id/btn_anr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="制造ANR (busy 6s)"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看事件文件"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>
